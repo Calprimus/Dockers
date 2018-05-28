@@ -1,5 +1,5 @@
 <!-- Setting up your computer -->
-$ docker run hello-world
+# docker run hello-world
 
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
@@ -12,9 +12,11 @@ To generate this message, Docker took the following steps:
  4. The Docker daemon streamed that output to the Docker client, which sent it
     to your terminal.
 
-To try something more ambitious, you can run a Windows Server container with:
- PS C:\> docker run -it microsoft/windowsservercore powershell
 
+>To try something more ambitious, you can run a Windows Server container with:
+```sh
+PS C:\> docker run -it microsoft/windowsservercore powershell
+```
 Share images, automate workflows, and more with a free Docker ID:
  https://cloud.docker.com/
 
